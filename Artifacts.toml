@@ -1,113 +1,113 @@
 [[XML2]]
 arch = "i686"
-git-tree-sha1 = "1444d09b3c36d565eed8321b86695f4e7a23a311"
+git-tree-sha1 = "41ca78972ada50ab77946df6a773863e1274e0f3"
 libc = "musl"
 os = "linux"
 
     [[XML2.download]]
-    sha256 = "e0c5745e37fe95b350602fd51b879c398dc9dc11fdb1dd68e54762616301043e"
-    url = "https://github.com/JuliaBinaryWrappers/XML2_jll.jl/releases/download/XML2-v2.9.9+2/XML2.v2.9.9.i686-linux-musl.tar.gz"
+    sha256 = "e96cab0494e1df86d5405ebfe4f20bea58c5b1030834d6718b1341055d1271b7"
+    url = "https://github.com/JuliaBinaryWrappers/XML2_jll.jl/releases/download/XML2-v2.9.9+3/XML2.v2.9.9.i686-linux-musl.tar.gz"
 [[XML2]]
 arch = "aarch64"
-git-tree-sha1 = "05e69ad4398475dbfb6a6bd94daab72b6f641b42"
+git-tree-sha1 = "6ad7ec2432c4661fea828fc48f9261f24d9cf8b9"
 libc = "musl"
 os = "linux"
 
     [[XML2.download]]
-    sha256 = "35642d1d5c9848506164d0d37e7d81d44fd61cbd89ec1dc6b4af21beee8fc3ed"
-    url = "https://github.com/JuliaBinaryWrappers/XML2_jll.jl/releases/download/XML2-v2.9.9+2/XML2.v2.9.9.aarch64-linux-musl.tar.gz"
+    sha256 = "d49178520634ee2a994f988384b81450cbf849de28db29cedf4044927c12bc34"
+    url = "https://github.com/JuliaBinaryWrappers/XML2_jll.jl/releases/download/XML2-v2.9.9+3/XML2.v2.9.9.aarch64-linux-musl.tar.gz"
 [[XML2]]
 arch = "i686"
-git-tree-sha1 = "a493f9d2826be754316d21caf83203c9eca3c3cd"
+git-tree-sha1 = "8d6fb638b09ff11db206ca89d84c0a3abb0f3416"
 os = "windows"
 
     [[XML2.download]]
-    sha256 = "4afff2912a016b5bfb8817a9052392f0bc1e54b240ef756cc2db78a89e6b8681"
-    url = "https://github.com/JuliaBinaryWrappers/XML2_jll.jl/releases/download/XML2-v2.9.9+2/XML2.v2.9.9.i686-w64-mingw32.tar.gz"
+    sha256 = "97f6c65644af436911390d97aae6f182445b26e477de8d7bd7f51f85abd12ff3"
+    url = "https://github.com/JuliaBinaryWrappers/XML2_jll.jl/releases/download/XML2-v2.9.9+3/XML2.v2.9.9.i686-w64-mingw32.tar.gz"
 [[XML2]]
 arch = "x86_64"
-git-tree-sha1 = "fa0959ad64db1d25b7c6ca473e4142012f154c86"
+git-tree-sha1 = "2c85b863e45de126dce3450dd75390bec152f69a"
 os = "windows"
 
     [[XML2.download]]
-    sha256 = "fee2dede39bd0d22e383ea71c446059029ffcc38e58f3f18dce11cc17e29c8d0"
-    url = "https://github.com/JuliaBinaryWrappers/XML2_jll.jl/releases/download/XML2-v2.9.9+2/XML2.v2.9.9.x86_64-w64-mingw32.tar.gz"
+    sha256 = "8072c1f3d7bb36121e22cb4fd1ba54364381e84819dfcf6331ea7377fa559911"
+    url = "https://github.com/JuliaBinaryWrappers/XML2_jll.jl/releases/download/XML2-v2.9.9+3/XML2.v2.9.9.x86_64-w64-mingw32.tar.gz"
 [[XML2]]
 arch = "armv7l"
-git-tree-sha1 = "63364c74f4c4ac1809b33061eb9f33aae43e3d49"
+git-tree-sha1 = "04a54d0c2740c9e34f3041b28097ccb99a26a8c8"
 libc = "glibc"
 os = "linux"
 
     [[XML2.download]]
-    sha256 = "9977953372f4f15b2b573e52528ff605c0e20896d566d799b7508f469b289238"
-    url = "https://github.com/JuliaBinaryWrappers/XML2_jll.jl/releases/download/XML2-v2.9.9+2/XML2.v2.9.9.armv7l-linux-gnueabihf.tar.gz"
+    sha256 = "bc6d8f072786f6b833931f6d06bff169aba294fe56c0dfaa70e7bd7709ae7137"
+    url = "https://github.com/JuliaBinaryWrappers/XML2_jll.jl/releases/download/XML2-v2.9.9+3/XML2.v2.9.9.armv7l-linux-gnueabihf.tar.gz"
 [[XML2]]
 arch = "armv7l"
-git-tree-sha1 = "26af11d79db65cc380b8c658faac5d81531afee1"
+git-tree-sha1 = "a49d6f01644244d8da0891a334794d5362101ebf"
 libc = "musl"
 os = "linux"
 
     [[XML2.download]]
-    sha256 = "3db6845815b2b67e99c39f8d6c8d5c7f351f5cb05f50e7a343a352ddc169dc5b"
-    url = "https://github.com/JuliaBinaryWrappers/XML2_jll.jl/releases/download/XML2-v2.9.9+2/XML2.v2.9.9.armv7l-linux-musleabihf.tar.gz"
+    sha256 = "c290ddf0f401997157c5e443260c03f4459f5e20ee6db09df1b43f1d88488564"
+    url = "https://github.com/JuliaBinaryWrappers/XML2_jll.jl/releases/download/XML2-v2.9.9+3/XML2.v2.9.9.armv7l-linux-musleabihf.tar.gz"
 [[XML2]]
 arch = "i686"
-git-tree-sha1 = "8eb5209e9a7177c47eb7185e2482db765915e7c8"
+git-tree-sha1 = "e282a7d0befd33419b111d2c77708cb47914cdc2"
 libc = "glibc"
 os = "linux"
 
     [[XML2.download]]
-    sha256 = "9fd8d6bbd4647cf8a32f12e5936ab6ed2dbaf9ceaeebe226ec93cd9f7b8a4fc4"
-    url = "https://github.com/JuliaBinaryWrappers/XML2_jll.jl/releases/download/XML2-v2.9.9+2/XML2.v2.9.9.i686-linux-gnu.tar.gz"
+    sha256 = "b87ed24294ce430b6f8545a539dbbbbf4d830abe253011754a901860264a71f4"
+    url = "https://github.com/JuliaBinaryWrappers/XML2_jll.jl/releases/download/XML2-v2.9.9+3/XML2.v2.9.9.i686-linux-gnu.tar.gz"
 [[XML2]]
 arch = "x86_64"
-git-tree-sha1 = "cf12a72358946360fb149640e516f46100b3455c"
+git-tree-sha1 = "83bb7b1e6f08fc49017dae9f9f9d9c5e432b712f"
 libc = "glibc"
 os = "linux"
 
     [[XML2.download]]
-    sha256 = "1b8cf45400daa54304d5dac81ef834b0b35bdda88c242e0e93955ae6fdf84146"
-    url = "https://github.com/JuliaBinaryWrappers/XML2_jll.jl/releases/download/XML2-v2.9.9+2/XML2.v2.9.9.x86_64-linux-gnu.tar.gz"
+    sha256 = "4b9db443b03a2b1e4e39114fb48848616142acb2f46ab9462dd4c63f5ade00b8"
+    url = "https://github.com/JuliaBinaryWrappers/XML2_jll.jl/releases/download/XML2-v2.9.9+3/XML2.v2.9.9.x86_64-linux-gnu.tar.gz"
 [[XML2]]
 arch = "powerpc64le"
-git-tree-sha1 = "230b9ba5e3f71665d3eb72bcb2990e5e76203dc7"
+git-tree-sha1 = "e91bc116c6d32d1e89ac70b7395f76a24502a6f9"
 libc = "glibc"
 os = "linux"
 
     [[XML2.download]]
-    sha256 = "ad299d53f4843b5929aadaa2266a1e6314d2e8c941eb85baaf81c6fc71b49fa5"
-    url = "https://github.com/JuliaBinaryWrappers/XML2_jll.jl/releases/download/XML2-v2.9.9+2/XML2.v2.9.9.powerpc64le-linux-gnu.tar.gz"
+    sha256 = "7857a70d3316403a7919ae1d70d99d4f1157c54263a2d43c4e456dcb747150a9"
+    url = "https://github.com/JuliaBinaryWrappers/XML2_jll.jl/releases/download/XML2-v2.9.9+3/XML2.v2.9.9.powerpc64le-linux-gnu.tar.gz"
 [[XML2]]
 arch = "x86_64"
-git-tree-sha1 = "49930432f3568c55c4c749bbda5ebbeb42f380cb"
+git-tree-sha1 = "46e4be6ef3923d602fe5deb4ea549ad436c7990c"
 os = "macos"
 
     [[XML2.download]]
-    sha256 = "eff05d7a1c397a22219fc1a5856e72fd79f21cdf9e144b88f962d0d901ae2123"
-    url = "https://github.com/JuliaBinaryWrappers/XML2_jll.jl/releases/download/XML2-v2.9.9+2/XML2.v2.9.9.x86_64-apple-darwin14.tar.gz"
+    sha256 = "a6172b078d5d9e935873b1ca35b1376e85e0442ee1eebcf5d3f055262f012da5"
+    url = "https://github.com/JuliaBinaryWrappers/XML2_jll.jl/releases/download/XML2-v2.9.9+3/XML2.v2.9.9.x86_64-apple-darwin14.tar.gz"
 [[XML2]]
 arch = "aarch64"
-git-tree-sha1 = "db7e29e042de60aafdd33e290779219761f4175d"
+git-tree-sha1 = "57070604efe7da530e760b591caef11f790b3caa"
 libc = "glibc"
 os = "linux"
 
     [[XML2.download]]
-    sha256 = "9c7e9092c37b92ea5bdd72cb147b0774b00089850c9923b54e9ec9c7908de5e2"
-    url = "https://github.com/JuliaBinaryWrappers/XML2_jll.jl/releases/download/XML2-v2.9.9+2/XML2.v2.9.9.aarch64-linux-gnu.tar.gz"
+    sha256 = "a8987f6038973ea69561ad5aa4a1931588e4841556d90f1fa490f169d7287f0b"
+    url = "https://github.com/JuliaBinaryWrappers/XML2_jll.jl/releases/download/XML2-v2.9.9+3/XML2.v2.9.9.aarch64-linux-gnu.tar.gz"
 [[XML2]]
 arch = "x86_64"
-git-tree-sha1 = "0ce2586cfd437805bbdccf51047bcedaa1966f43"
+git-tree-sha1 = "5743921fdbf482f038860218352aba23d95ca5e0"
 os = "freebsd"
 
     [[XML2.download]]
-    sha256 = "d0bdd1cc8fa72bba828be80573883b4627aa1d8bf32b44773a2bd494694e1ffb"
-    url = "https://github.com/JuliaBinaryWrappers/XML2_jll.jl/releases/download/XML2-v2.9.9+2/XML2.v2.9.9.x86_64-unknown-freebsd11.1.tar.gz"
+    sha256 = "f55bc87f3dee597e1da480bd3298a9dab8db1c1498cffde2a41a6cf96780ddb8"
+    url = "https://github.com/JuliaBinaryWrappers/XML2_jll.jl/releases/download/XML2-v2.9.9+3/XML2.v2.9.9.x86_64-unknown-freebsd11.1.tar.gz"
 [[XML2]]
 arch = "x86_64"
-git-tree-sha1 = "84f521a5734c3f51a1bcc6ae531aa9c0888b5585"
+git-tree-sha1 = "4129761f51fc0a8bce8caab3ae5477dd95d30d41"
 libc = "musl"
 os = "linux"
 
     [[XML2.download]]
-    sha256 = "367d978f27262ee50bec0d41e72106a9f189c06f4391a6d046adccae5ed2c99b"
-    url = "https://github.com/JuliaBinaryWrappers/XML2_jll.jl/releases/download/XML2-v2.9.9+2/XML2.v2.9.9.x86_64-linux-musl.tar.gz"
+    sha256 = "0b07b0ce00ecedc4e23f0736f087d4ca4431e7a6e932b4eb3c52f4a6e1d39db3"
+    url = "https://github.com/JuliaBinaryWrappers/XML2_jll.jl/releases/download/XML2-v2.9.9+3/XML2.v2.9.9.x86_64-linux-musl.tar.gz"
