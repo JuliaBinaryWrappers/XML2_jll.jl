@@ -11,7 +11,7 @@ function __init__()
     JLLWrappers.@generate_init_header(Zlib_jll, Libiconv_jll)
     JLLWrappers.@init_library_product(
         libxml2,
-        "lib/libxml2.2.12.0.dylib",
+        "lib/libxml2.2.dylib",
         RTLD_LAZY | RTLD_DEEPBIND,
     )
 
