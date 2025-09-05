@@ -4,7 +4,7 @@ export libxml2, xmlcatalog, xmllint
 using Zlib_jll
 using Libiconv_jll
 JLLWrappers.@generate_wrapper_header("XML2")
-JLLWrappers.@declare_library_product(libxml2, "libxml2.so.16")
+JLLWrappers.@declare_library_product(libxml2, "libxml2.so.2")
 JLLWrappers.@declare_executable_product(xmlcatalog)
 JLLWrappers.@declare_executable_product(xmllint)
 function __init__()

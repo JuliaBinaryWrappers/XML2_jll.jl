@@ -4,14 +4,14 @@ export libxml2, xmlcatalog, xmllint
 using Zlib_jll
 using Libiconv_jll
 JLLWrappers.@generate_wrapper_header("XML2")
-JLLWrappers.@declare_library_product(libxml2, "@rpath/libxml2.16.dylib")
+JLLWrappers.@declare_library_product(libxml2, "@rpath/libxml2.2.dylib")
 JLLWrappers.@declare_executable_product(xmlcatalog)
 JLLWrappers.@declare_executable_product(xmllint)
 function __init__()
     JLLWrappers.@generate_init_header(Zlib_jll, Libiconv_jll)
     JLLWrappers.@init_library_product(
         libxml2,
-        "lib/libxml2.16.dylib",
+        "lib/libxml2.2.dylib",
         RTLD_LAZY | RTLD_DEEPBIND,
     )
 
