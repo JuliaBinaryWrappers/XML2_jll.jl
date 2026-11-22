@@ -1,0 +1,1158 @@
+version = "2.15.5"
+format_version = "1.0"
+name = "XML2"
+julia_compat = "1.6"
+platform_augmentation_code = ""
+
+[[builds]]
+name = "XML2"
+platform = "x86_64-linux-gnu"
+lazy = "false"
+src_version = "2.15.4"
+
+    [builds.artifact]
+    treehash = "sha1:ef6a096cdddbe22aabd2d150735c3bd5845ba9fd"
+
+        [[builds.artifact.download_sources]]
+        tarball_hash = "sha256:0f1f8a3225530a19998003c8b90380a1bb6c54ed196caa9161fb786444ae387a"
+        url = "https://github.com/JuliaBinaryWrappers/XML2_jll.jl/releases/download/XML2-v2.15.5/XML2.v2.15.5.x86_64-linux-gnu.tar.gz"
+
+    [[builds.licenses]]
+    filename = "Copyright"
+    license_type = "MIT"
+    license_text = """Except where otherwise noted in the source code (e.g. the files dict.c and\nlist.c, which are covered by a similar licence but with different Copyright\nnotices) all the files are:\n\n Copyright (C) 1998-2012 Daniel Veillard.  All Rights Reserved.\n Copyright (C) The Libxml2 Contributors.\n\nPermission is hereby granted, free of charge, to any person obtaining a copy\nof this software and associated documentation files (the \"Software\"), to deal\nin the Software without restriction, including without limitation the rights\nto use, copy, modify, merge, publish, distribute, sublicense, and/or sell\ncopies of the Software, and to permit persons to whom the Software is fur-\nnished to do so, subject to the following conditions:\n\nThe above copyright notice and this permission notice shall be included in\nall copies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR\nIMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FIT-\nNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT.  IN NO EVENT SHALL THE\nAUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER\nLIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,\nOUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN\nTHE SOFTWARE.\n"""
+
+    [[builds.products]]
+    path = "bin/xmlcatalog"
+    type = "executable"
+    name = "xmlcatalog"
+    [[builds.products]]
+    path = "bin/xmllint"
+    type = "executable"
+    name = "xmllint"
+    [[builds.products]]
+    flags = ["RTLD_DEEPBIND", "RTLD_LAZY"]
+    path = "lib/libxml2.so.16.1.4"
+    linkage = "dynamic"
+    type = "library"
+    name = "libxml2"
+    soname = "libxml2.so.16"
+    system_deps = ["c", "dl", "m", "pthread"]
+    deps = ["Zlib_jll.libz", "Libiconv_jll.libiconv"]
+
+    [builds.auxilliary_artifacts.extract_log]
+    treehash = "sha1:46296b56f566198eb01dedb3cd1b325716c5fd12"
+
+        [[builds.auxilliary_artifacts.extract_log.download_sources]]
+        tarball_hash = "sha256:b79f2ebb955cfeed0e7a84016d2985650da54c5dc791463f34a0fd03d0361f1f"
+        url = "https://github.com/JuliaBinaryWrappers/XML2_jll.jl/releases/download/XML2-v2.15.5/XML2-extract_log.v2.15.5.x86_64-linux-gnu.tar.gz"
+
+    [builds.auxilliary_artifacts.build_log]
+    treehash = "sha1:510e06feec59414681dc9f34dce4f3199f5fac28"
+
+        [[builds.auxilliary_artifacts.build_log.download_sources]]
+        tarball_hash = "sha256:7145dde5c2d6e6fa16a74d80a83248981ef72bbed1d0e6454f58e5d66e206e53"
+        url = "https://github.com/JuliaBinaryWrappers/XML2_jll.jl/releases/download/XML2-v2.15.5/XML2-build_log.v2.15.5.x86_64-linux-gnu.tar.gz"
+
+    [[builds.sources]]
+    treehash = "sha1:8b55777ebf100548cb245a24b882a0a2900f7f3c"
+    url = "https://download.gnome.org/sources/libxml2/2.15/libxml2-2.15.4.tar.xz"
+
+    [builds.callback_defs]
+
+    [[builds.deps]]
+    name = "Zlib_jll"
+    compat = "1.2"
+    uuid = "83775a58-1f1d-513f-b197-d71354ab007a"
+    [[builds.deps]]
+    name = "Libiconv_jll"
+    compat = "1.18"
+    uuid = "94ce4f54-9a6c-5748-9c1c-f9c7231a4531"
+[[builds]]
+name = "XML2"
+platform = "i686-linux-gnu"
+lazy = "false"
+src_version = "2.15.4"
+
+    [builds.artifact]
+    treehash = "sha1:28ffe62c5bf2f7f622199379bed46607b57a2ebf"
+
+        [[builds.artifact.download_sources]]
+        tarball_hash = "sha256:59f304d3158a86c3a7646d470640b5dded2c299177a46969e671ed2e92164f1e"
+        url = "https://github.com/JuliaBinaryWrappers/XML2_jll.jl/releases/download/XML2-v2.15.5/XML2.v2.15.5.i686-linux-gnu.tar.gz"
+
+    [[builds.licenses]]
+    filename = "Copyright"
+    license_type = "MIT"
+    license_text = """Except where otherwise noted in the source code (e.g. the files dict.c and\nlist.c, which are covered by a similar licence but with different Copyright\nnotices) all the files are:\n\n Copyright (C) 1998-2012 Daniel Veillard.  All Rights Reserved.\n Copyright (C) The Libxml2 Contributors.\n\nPermission is hereby granted, free of charge, to any person obtaining a copy\nof this software and associated documentation files (the \"Software\"), to deal\nin the Software without restriction, including without limitation the rights\nto use, copy, modify, merge, publish, distribute, sublicense, and/or sell\ncopies of the Software, and to permit persons to whom the Software is fur-\nnished to do so, subject to the following conditions:\n\nThe above copyright notice and this permission notice shall be included in\nall copies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR\nIMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FIT-\nNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT.  IN NO EVENT SHALL THE\nAUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER\nLIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,\nOUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN\nTHE SOFTWARE.\n"""
+
+    [[builds.products]]
+    path = "bin/xmlcatalog"
+    type = "executable"
+    name = "xmlcatalog"
+    [[builds.products]]
+    path = "bin/xmllint"
+    type = "executable"
+    name = "xmllint"
+    [[builds.products]]
+    flags = ["RTLD_DEEPBIND", "RTLD_LAZY"]
+    path = "lib/libxml2.so.16.1.4"
+    linkage = "dynamic"
+    type = "library"
+    name = "libxml2"
+    soname = "libxml2.so.16"
+    system_deps = ["c", "dl", "m", "pthread"]
+    deps = ["Zlib_jll.libz", "Libiconv_jll.libiconv"]
+
+    [builds.auxilliary_artifacts.extract_log]
+    treehash = "sha1:84b85c9cdce6ed574b22c6e205b7a4de4d6b2e0e"
+
+        [[builds.auxilliary_artifacts.extract_log.download_sources]]
+        tarball_hash = "sha256:0ebf10e9f639cedeccd664ecf277ed7f5b71b57c37e8cd5865cafb36cdb4dcf2"
+        url = "https://github.com/JuliaBinaryWrappers/XML2_jll.jl/releases/download/XML2-v2.15.5/XML2-extract_log.v2.15.5.i686-linux-gnu.tar.gz"
+
+    [builds.auxilliary_artifacts.build_log]
+    treehash = "sha1:f29202b0e7aa7e749500cb4b31d3fa41f723b86e"
+
+        [[builds.auxilliary_artifacts.build_log.download_sources]]
+        tarball_hash = "sha256:56c73f5ad784537e80806ec42951f640fc7ee320ac0d5b8c04280bbbec527e49"
+        url = "https://github.com/JuliaBinaryWrappers/XML2_jll.jl/releases/download/XML2-v2.15.5/XML2-build_log.v2.15.5.i686-linux-gnu.tar.gz"
+
+    [[builds.sources]]
+    treehash = "sha1:8b55777ebf100548cb245a24b882a0a2900f7f3c"
+    url = "https://download.gnome.org/sources/libxml2/2.15/libxml2-2.15.4.tar.xz"
+
+    [builds.callback_defs]
+
+    [[builds.deps]]
+    name = "Zlib_jll"
+    compat = "1.2"
+    uuid = "83775a58-1f1d-513f-b197-d71354ab007a"
+    [[builds.deps]]
+    name = "Libiconv_jll"
+    compat = "1.18"
+    uuid = "94ce4f54-9a6c-5748-9c1c-f9c7231a4531"
+[[builds]]
+name = "XML2"
+platform = "aarch64-linux-gnu"
+lazy = "false"
+src_version = "2.15.4"
+
+    [builds.artifact]
+    treehash = "sha1:6fba55ba57c87b609c8dbec1949ab3e3c550de7f"
+
+        [[builds.artifact.download_sources]]
+        tarball_hash = "sha256:44926695f58ef643c60015dad6a2747ac1f8d2d924ce343c53ccaf9f79fccc8f"
+        url = "https://github.com/JuliaBinaryWrappers/XML2_jll.jl/releases/download/XML2-v2.15.5/XML2.v2.15.5.aarch64-linux-gnu.tar.gz"
+
+    [[builds.licenses]]
+    filename = "Copyright"
+    license_type = "MIT"
+    license_text = """Except where otherwise noted in the source code (e.g. the files dict.c and\nlist.c, which are covered by a similar licence but with different Copyright\nnotices) all the files are:\n\n Copyright (C) 1998-2012 Daniel Veillard.  All Rights Reserved.\n Copyright (C) The Libxml2 Contributors.\n\nPermission is hereby granted, free of charge, to any person obtaining a copy\nof this software and associated documentation files (the \"Software\"), to deal\nin the Software without restriction, including without limitation the rights\nto use, copy, modify, merge, publish, distribute, sublicense, and/or sell\ncopies of the Software, and to permit persons to whom the Software is fur-\nnished to do so, subject to the following conditions:\n\nThe above copyright notice and this permission notice shall be included in\nall copies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR\nIMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FIT-\nNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT.  IN NO EVENT SHALL THE\nAUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER\nLIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,\nOUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN\nTHE SOFTWARE.\n"""
+
+    [[builds.products]]
+    path = "bin/xmlcatalog"
+    type = "executable"
+    name = "xmlcatalog"
+    [[builds.products]]
+    path = "bin/xmllint"
+    type = "executable"
+    name = "xmllint"
+    [[builds.products]]
+    flags = ["RTLD_DEEPBIND", "RTLD_LAZY"]
+    path = "lib/libxml2.so.16.1.4"
+    linkage = "dynamic"
+    type = "library"
+    name = "libxml2"
+    soname = "libxml2.so.16"
+    system_deps = ["c", "dl", "m", "pthread"]
+    deps = ["Zlib_jll.libz", "Libiconv_jll.libiconv"]
+
+    [builds.auxilliary_artifacts.extract_log]
+    treehash = "sha1:0fdf34c2524a3910c70378da15fbd9ad5507a7e9"
+
+        [[builds.auxilliary_artifacts.extract_log.download_sources]]
+        tarball_hash = "sha256:d1015a3e0db201a9f6ac2a9569d9e482c73e47eadef7a1ef562a2f806b9ed120"
+        url = "https://github.com/JuliaBinaryWrappers/XML2_jll.jl/releases/download/XML2-v2.15.5/XML2-extract_log.v2.15.5.aarch64-linux-gnu.tar.gz"
+
+    [builds.auxilliary_artifacts.build_log]
+    treehash = "sha1:aa5b0a868fb3ba0375c1eb583ff3b655da74fff4"
+
+        [[builds.auxilliary_artifacts.build_log.download_sources]]
+        tarball_hash = "sha256:171334bceeff880f3bfe5609cfdd51b16c1c0818f49d59ab270c1ae645c3e88a"
+        url = "https://github.com/JuliaBinaryWrappers/XML2_jll.jl/releases/download/XML2-v2.15.5/XML2-build_log.v2.15.5.aarch64-linux-gnu.tar.gz"
+
+    [[builds.sources]]
+    treehash = "sha1:8b55777ebf100548cb245a24b882a0a2900f7f3c"
+    url = "https://download.gnome.org/sources/libxml2/2.15/libxml2-2.15.4.tar.xz"
+
+    [builds.callback_defs]
+
+    [[builds.deps]]
+    name = "Zlib_jll"
+    compat = "1.2"
+    uuid = "83775a58-1f1d-513f-b197-d71354ab007a"
+    [[builds.deps]]
+    name = "Libiconv_jll"
+    compat = "1.18"
+    uuid = "94ce4f54-9a6c-5748-9c1c-f9c7231a4531"
+[[builds]]
+name = "XML2"
+platform = "armv6l-linux-gnueabihf"
+lazy = "false"
+src_version = "2.15.4"
+
+    [builds.artifact]
+    treehash = "sha1:de14219371ee4ff2b2146942c00475f558c8bbff"
+
+        [[builds.artifact.download_sources]]
+        tarball_hash = "sha256:f2244391995f32dcf4c79068ddc5db08f439274c2f15b22762f66bd972e7e1d3"
+        url = "https://github.com/JuliaBinaryWrappers/XML2_jll.jl/releases/download/XML2-v2.15.5/XML2.v2.15.5.armv6l-linux-gnueabihf.tar.gz"
+
+    [[builds.licenses]]
+    filename = "Copyright"
+    license_type = "MIT"
+    license_text = """Except where otherwise noted in the source code (e.g. the files dict.c and\nlist.c, which are covered by a similar licence but with different Copyright\nnotices) all the files are:\n\n Copyright (C) 1998-2012 Daniel Veillard.  All Rights Reserved.\n Copyright (C) The Libxml2 Contributors.\n\nPermission is hereby granted, free of charge, to any person obtaining a copy\nof this software and associated documentation files (the \"Software\"), to deal\nin the Software without restriction, including without limitation the rights\nto use, copy, modify, merge, publish, distribute, sublicense, and/or sell\ncopies of the Software, and to permit persons to whom the Software is fur-\nnished to do so, subject to the following conditions:\n\nThe above copyright notice and this permission notice shall be included in\nall copies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR\nIMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FIT-\nNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT.  IN NO EVENT SHALL THE\nAUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER\nLIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,\nOUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN\nTHE SOFTWARE.\n"""
+
+    [[builds.products]]
+    path = "bin/xmlcatalog"
+    type = "executable"
+    name = "xmlcatalog"
+    [[builds.products]]
+    path = "bin/xmllint"
+    type = "executable"
+    name = "xmllint"
+    [[builds.products]]
+    flags = ["RTLD_DEEPBIND", "RTLD_LAZY"]
+    path = "lib/libxml2.so.16.1.4"
+    linkage = "dynamic"
+    type = "library"
+    name = "libxml2"
+    soname = "libxml2.so.16"
+    system_deps = ["c", "dl", "m", "pthread"]
+    deps = ["Zlib_jll.libz", "Libiconv_jll.libiconv"]
+
+    [builds.auxilliary_artifacts.extract_log]
+    treehash = "sha1:63698b091afad217edfeeff0d1d0b90ee9561073"
+
+        [[builds.auxilliary_artifacts.extract_log.download_sources]]
+        tarball_hash = "sha256:71b26f33ab358a0bead205c8a01fc63b1ea726d551545e3aa41462f41edc18db"
+        url = "https://github.com/JuliaBinaryWrappers/XML2_jll.jl/releases/download/XML2-v2.15.5/XML2-extract_log.v2.15.5.armv6l-linux-gnueabihf.tar.gz"
+
+    [builds.auxilliary_artifacts.build_log]
+    treehash = "sha1:8e7dc7473a2e2c02220caf8f2c94524b1b37dc78"
+
+        [[builds.auxilliary_artifacts.build_log.download_sources]]
+        tarball_hash = "sha256:d0fb353269784361218e7ce8b54c2529912ba2020c2d88afd05a0e609b30da83"
+        url = "https://github.com/JuliaBinaryWrappers/XML2_jll.jl/releases/download/XML2-v2.15.5/XML2-build_log.v2.15.5.armv6l-linux-gnueabihf.tar.gz"
+
+    [[builds.sources]]
+    treehash = "sha1:8b55777ebf100548cb245a24b882a0a2900f7f3c"
+    url = "https://download.gnome.org/sources/libxml2/2.15/libxml2-2.15.4.tar.xz"
+
+    [builds.callback_defs]
+
+    [[builds.deps]]
+    name = "Zlib_jll"
+    compat = "1.2"
+    uuid = "83775a58-1f1d-513f-b197-d71354ab007a"
+    [[builds.deps]]
+    name = "Libiconv_jll"
+    compat = "1.18"
+    uuid = "94ce4f54-9a6c-5748-9c1c-f9c7231a4531"
+[[builds]]
+name = "XML2"
+platform = "armv7l-linux-gnueabihf"
+lazy = "false"
+src_version = "2.15.4"
+
+    [builds.artifact]
+    treehash = "sha1:1367b8e14269ba6bf8eae60f6607cc587085d520"
+
+        [[builds.artifact.download_sources]]
+        tarball_hash = "sha256:a248e587037e9f3a9f3a475c977d9260c1c521982a0432dc575aab165522ac2c"
+        url = "https://github.com/JuliaBinaryWrappers/XML2_jll.jl/releases/download/XML2-v2.15.5/XML2.v2.15.5.armv7l-linux-gnueabihf.tar.gz"
+
+    [[builds.licenses]]
+    filename = "Copyright"
+    license_type = "MIT"
+    license_text = """Except where otherwise noted in the source code (e.g. the files dict.c and\nlist.c, which are covered by a similar licence but with different Copyright\nnotices) all the files are:\n\n Copyright (C) 1998-2012 Daniel Veillard.  All Rights Reserved.\n Copyright (C) The Libxml2 Contributors.\n\nPermission is hereby granted, free of charge, to any person obtaining a copy\nof this software and associated documentation files (the \"Software\"), to deal\nin the Software without restriction, including without limitation the rights\nto use, copy, modify, merge, publish, distribute, sublicense, and/or sell\ncopies of the Software, and to permit persons to whom the Software is fur-\nnished to do so, subject to the following conditions:\n\nThe above copyright notice and this permission notice shall be included in\nall copies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR\nIMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FIT-\nNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT.  IN NO EVENT SHALL THE\nAUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER\nLIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,\nOUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN\nTHE SOFTWARE.\n"""
+
+    [[builds.products]]
+    path = "bin/xmlcatalog"
+    type = "executable"
+    name = "xmlcatalog"
+    [[builds.products]]
+    path = "bin/xmllint"
+    type = "executable"
+    name = "xmllint"
+    [[builds.products]]
+    flags = ["RTLD_DEEPBIND", "RTLD_LAZY"]
+    path = "lib/libxml2.so.16.1.4"
+    linkage = "dynamic"
+    type = "library"
+    name = "libxml2"
+    soname = "libxml2.so.16"
+    system_deps = ["c", "dl", "m", "pthread"]
+    deps = ["Zlib_jll.libz", "Libiconv_jll.libiconv"]
+
+    [builds.auxilliary_artifacts.extract_log]
+    treehash = "sha1:da32fdd98280ac974ef4bb1393f1a5a7b51c3a31"
+
+        [[builds.auxilliary_artifacts.extract_log.download_sources]]
+        tarball_hash = "sha256:aafbc18e0c0fb1fdc11c15e8ea77562c05154f62f9f93bea2c4cb09095c9cdb1"
+        url = "https://github.com/JuliaBinaryWrappers/XML2_jll.jl/releases/download/XML2-v2.15.5/XML2-extract_log.v2.15.5.armv7l-linux-gnueabihf.tar.gz"
+
+    [builds.auxilliary_artifacts.build_log]
+    treehash = "sha1:3d8ec077ac5f8af1e14002c0ff4ce3156498a247"
+
+        [[builds.auxilliary_artifacts.build_log.download_sources]]
+        tarball_hash = "sha256:0186754414b37c6b5d384fbe31b530eb6d2d4adda68859869b1988168ff2e1e1"
+        url = "https://github.com/JuliaBinaryWrappers/XML2_jll.jl/releases/download/XML2-v2.15.5/XML2-build_log.v2.15.5.armv7l-linux-gnueabihf.tar.gz"
+
+    [[builds.sources]]
+    treehash = "sha1:8b55777ebf100548cb245a24b882a0a2900f7f3c"
+    url = "https://download.gnome.org/sources/libxml2/2.15/libxml2-2.15.4.tar.xz"
+
+    [builds.callback_defs]
+
+    [[builds.deps]]
+    name = "Zlib_jll"
+    compat = "1.2"
+    uuid = "83775a58-1f1d-513f-b197-d71354ab007a"
+    [[builds.deps]]
+    name = "Libiconv_jll"
+    compat = "1.18"
+    uuid = "94ce4f54-9a6c-5748-9c1c-f9c7231a4531"
+[[builds]]
+name = "XML2"
+platform = "powerpc64le-linux-gnu"
+lazy = "false"
+src_version = "2.15.4"
+
+    [builds.artifact]
+    treehash = "sha1:401a51adbbd0c182bdd29efc7658348d7e578a41"
+
+        [[builds.artifact.download_sources]]
+        tarball_hash = "sha256:c4e13b361b7efa6a9b2c6899b58d5f0dff505c0fba1b6c4f40d02ef345d17502"
+        url = "https://github.com/JuliaBinaryWrappers/XML2_jll.jl/releases/download/XML2-v2.15.5/XML2.v2.15.5.powerpc64le-linux-gnu.tar.gz"
+
+    [[builds.licenses]]
+    filename = "Copyright"
+    license_type = "MIT"
+    license_text = """Except where otherwise noted in the source code (e.g. the files dict.c and\nlist.c, which are covered by a similar licence but with different Copyright\nnotices) all the files are:\n\n Copyright (C) 1998-2012 Daniel Veillard.  All Rights Reserved.\n Copyright (C) The Libxml2 Contributors.\n\nPermission is hereby granted, free of charge, to any person obtaining a copy\nof this software and associated documentation files (the \"Software\"), to deal\nin the Software without restriction, including without limitation the rights\nto use, copy, modify, merge, publish, distribute, sublicense, and/or sell\ncopies of the Software, and to permit persons to whom the Software is fur-\nnished to do so, subject to the following conditions:\n\nThe above copyright notice and this permission notice shall be included in\nall copies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR\nIMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FIT-\nNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT.  IN NO EVENT SHALL THE\nAUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER\nLIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,\nOUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN\nTHE SOFTWARE.\n"""
+
+    [[builds.products]]
+    path = "bin/xmlcatalog"
+    type = "executable"
+    name = "xmlcatalog"
+    [[builds.products]]
+    path = "bin/xmllint"
+    type = "executable"
+    name = "xmllint"
+    [[builds.products]]
+    flags = ["RTLD_DEEPBIND", "RTLD_LAZY"]
+    path = "lib/libxml2.so.16.1.4"
+    linkage = "dynamic"
+    type = "library"
+    name = "libxml2"
+    soname = "libxml2.so.16"
+    system_deps = ["c", "dl", "m", "pthread"]
+    deps = ["Zlib_jll.libz", "Libiconv_jll.libiconv"]
+
+    [builds.auxilliary_artifacts.extract_log]
+    treehash = "sha1:0777ea4a85a612d40849c660fa36971ac3cdf5f0"
+
+        [[builds.auxilliary_artifacts.extract_log.download_sources]]
+        tarball_hash = "sha256:ff15021e655f053da3988a319a7113ce70b88e96a53943ea09d590680abe87a3"
+        url = "https://github.com/JuliaBinaryWrappers/XML2_jll.jl/releases/download/XML2-v2.15.5/XML2-extract_log.v2.15.5.powerpc64le-linux-gnu.tar.gz"
+
+    [builds.auxilliary_artifacts.build_log]
+    treehash = "sha1:348030494a044ef1c8a2c909b5c4a1a45efaa7cd"
+
+        [[builds.auxilliary_artifacts.build_log.download_sources]]
+        tarball_hash = "sha256:109123f964db9c87c49181f00706d934243bdc52082e524f5e2c7ece16efd5d0"
+        url = "https://github.com/JuliaBinaryWrappers/XML2_jll.jl/releases/download/XML2-v2.15.5/XML2-build_log.v2.15.5.powerpc64le-linux-gnu.tar.gz"
+
+    [[builds.sources]]
+    treehash = "sha1:8b55777ebf100548cb245a24b882a0a2900f7f3c"
+    url = "https://download.gnome.org/sources/libxml2/2.15/libxml2-2.15.4.tar.xz"
+
+    [builds.callback_defs]
+
+    [[builds.deps]]
+    name = "Zlib_jll"
+    compat = "1.2"
+    uuid = "83775a58-1f1d-513f-b197-d71354ab007a"
+    [[builds.deps]]
+    name = "Libiconv_jll"
+    compat = "1.18"
+    uuid = "94ce4f54-9a6c-5748-9c1c-f9c7231a4531"
+[[builds]]
+name = "XML2"
+platform = "riscv64-linux-gnu"
+lazy = "false"
+src_version = "2.15.4"
+
+    [builds.artifact]
+    treehash = "sha1:1685e29be2e909a464803a6edecd59d3c661831e"
+
+        [[builds.artifact.download_sources]]
+        tarball_hash = "sha256:b2d5bda9f63b845218268f041209d44215c58a67c8ec1ee023ad7f336d3b90be"
+        url = "https://github.com/JuliaBinaryWrappers/XML2_jll.jl/releases/download/XML2-v2.15.5/XML2.v2.15.5.riscv64-linux-gnu.tar.gz"
+
+    [[builds.licenses]]
+    filename = "Copyright"
+    license_type = "MIT"
+    license_text = """Except where otherwise noted in the source code (e.g. the files dict.c and\nlist.c, which are covered by a similar licence but with different Copyright\nnotices) all the files are:\n\n Copyright (C) 1998-2012 Daniel Veillard.  All Rights Reserved.\n Copyright (C) The Libxml2 Contributors.\n\nPermission is hereby granted, free of charge, to any person obtaining a copy\nof this software and associated documentation files (the \"Software\"), to deal\nin the Software without restriction, including without limitation the rights\nto use, copy, modify, merge, publish, distribute, sublicense, and/or sell\ncopies of the Software, and to permit persons to whom the Software is fur-\nnished to do so, subject to the following conditions:\n\nThe above copyright notice and this permission notice shall be included in\nall copies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR\nIMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FIT-\nNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT.  IN NO EVENT SHALL THE\nAUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER\nLIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,\nOUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN\nTHE SOFTWARE.\n"""
+
+    [[builds.products]]
+    path = "bin/xmlcatalog"
+    type = "executable"
+    name = "xmlcatalog"
+    [[builds.products]]
+    path = "bin/xmllint"
+    type = "executable"
+    name = "xmllint"
+    [[builds.products]]
+    flags = ["RTLD_DEEPBIND", "RTLD_LAZY"]
+    path = "lib/libxml2.so.16.1.4"
+    linkage = "dynamic"
+    type = "library"
+    name = "libxml2"
+    soname = "libxml2.so.16"
+    system_deps = ["c", "m"]
+    deps = ["Zlib_jll.libz", "Libiconv_jll.libiconv"]
+
+    [builds.auxilliary_artifacts.extract_log]
+    treehash = "sha1:5242d7a2fc066f734c287a545d15babdba9d38c3"
+
+        [[builds.auxilliary_artifacts.extract_log.download_sources]]
+        tarball_hash = "sha256:d13e2962d088f1ddb5eeebd06648a98e2b47df1a7a0a20157a229f83fdf86e6d"
+        url = "https://github.com/JuliaBinaryWrappers/XML2_jll.jl/releases/download/XML2-v2.15.5/XML2-extract_log.v2.15.5.riscv64-linux-gnu.tar.gz"
+
+    [builds.auxilliary_artifacts.build_log]
+    treehash = "sha1:fce9d5fd6626c15a54702c9053aee7fac5182dbc"
+
+        [[builds.auxilliary_artifacts.build_log.download_sources]]
+        tarball_hash = "sha256:6a9971de9b1f5f0ef420d62f0aa5de270266b3254abf145f51404fe2aae3eff3"
+        url = "https://github.com/JuliaBinaryWrappers/XML2_jll.jl/releases/download/XML2-v2.15.5/XML2-build_log.v2.15.5.riscv64-linux-gnu.tar.gz"
+
+    [[builds.sources]]
+    treehash = "sha1:8b55777ebf100548cb245a24b882a0a2900f7f3c"
+    url = "https://download.gnome.org/sources/libxml2/2.15/libxml2-2.15.4.tar.xz"
+
+    [builds.callback_defs]
+
+    [[builds.deps]]
+    name = "Zlib_jll"
+    compat = "1.2"
+    uuid = "83775a58-1f1d-513f-b197-d71354ab007a"
+    [[builds.deps]]
+    name = "Libiconv_jll"
+    compat = "1.18"
+    uuid = "94ce4f54-9a6c-5748-9c1c-f9c7231a4531"
+[[builds]]
+name = "XML2"
+platform = "x86_64-linux-musl"
+lazy = "false"
+src_version = "2.15.4"
+
+    [builds.artifact]
+    treehash = "sha1:0797f27e3080df5299fe831a19d377982d2b3790"
+
+        [[builds.artifact.download_sources]]
+        tarball_hash = "sha256:2662328700f76770884da860c65d310f21c20d8c131ab22a440f37610ccca2ad"
+        url = "https://github.com/JuliaBinaryWrappers/XML2_jll.jl/releases/download/XML2-v2.15.5/XML2.v2.15.5.x86_64-linux-musl.tar.gz"
+
+    [[builds.licenses]]
+    filename = "Copyright"
+    license_type = "MIT"
+    license_text = """Except where otherwise noted in the source code (e.g. the files dict.c and\nlist.c, which are covered by a similar licence but with different Copyright\nnotices) all the files are:\n\n Copyright (C) 1998-2012 Daniel Veillard.  All Rights Reserved.\n Copyright (C) The Libxml2 Contributors.\n\nPermission is hereby granted, free of charge, to any person obtaining a copy\nof this software and associated documentation files (the \"Software\"), to deal\nin the Software without restriction, including without limitation the rights\nto use, copy, modify, merge, publish, distribute, sublicense, and/or sell\ncopies of the Software, and to permit persons to whom the Software is fur-\nnished to do so, subject to the following conditions:\n\nThe above copyright notice and this permission notice shall be included in\nall copies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR\nIMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FIT-\nNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT.  IN NO EVENT SHALL THE\nAUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER\nLIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,\nOUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN\nTHE SOFTWARE.\n"""
+
+    [[builds.products]]
+    path = "bin/xmlcatalog"
+    type = "executable"
+    name = "xmlcatalog"
+    [[builds.products]]
+    path = "bin/xmllint"
+    type = "executable"
+    name = "xmllint"
+    [[builds.products]]
+    flags = ["RTLD_DEEPBIND", "RTLD_LAZY"]
+    path = "lib/libxml2.so.16.1.4"
+    linkage = "dynamic"
+    type = "library"
+    name = "libxml2"
+    soname = "libxml2.so.16"
+    system_deps = ["c"]
+    deps = ["Zlib_jll.libz", "Libiconv_jll.libiconv"]
+
+    [builds.auxilliary_artifacts.extract_log]
+    treehash = "sha1:be45fce7b66b13c42e3255306a99d6625ef16543"
+
+        [[builds.auxilliary_artifacts.extract_log.download_sources]]
+        tarball_hash = "sha256:680383a6bd9683d5eecfdc35d518dcc5b306a2e50940da2cc86f399e91372f10"
+        url = "https://github.com/JuliaBinaryWrappers/XML2_jll.jl/releases/download/XML2-v2.15.5/XML2-extract_log.v2.15.5.x86_64-linux-musl.tar.gz"
+
+    [builds.auxilliary_artifacts.build_log]
+    treehash = "sha1:2ab978d75dd72b684f83fcb3fa4a678e53a6fab7"
+
+        [[builds.auxilliary_artifacts.build_log.download_sources]]
+        tarball_hash = "sha256:330cf55046593cb5724306800a214a8f8a83ce02388b7d520b9c829acb34372a"
+        url = "https://github.com/JuliaBinaryWrappers/XML2_jll.jl/releases/download/XML2-v2.15.5/XML2-build_log.v2.15.5.x86_64-linux-musl.tar.gz"
+
+    [[builds.sources]]
+    treehash = "sha1:8b55777ebf100548cb245a24b882a0a2900f7f3c"
+    url = "https://download.gnome.org/sources/libxml2/2.15/libxml2-2.15.4.tar.xz"
+
+    [builds.callback_defs]
+
+    [[builds.deps]]
+    name = "Zlib_jll"
+    compat = "1.2"
+    uuid = "83775a58-1f1d-513f-b197-d71354ab007a"
+    [[builds.deps]]
+    name = "Libiconv_jll"
+    compat = "1.18"
+    uuid = "94ce4f54-9a6c-5748-9c1c-f9c7231a4531"
+[[builds]]
+name = "XML2"
+platform = "i686-linux-musl"
+lazy = "false"
+src_version = "2.15.4"
+
+    [builds.artifact]
+    treehash = "sha1:35046f1cbb11e93872be6d196e9e3e05469a7062"
+
+        [[builds.artifact.download_sources]]
+        tarball_hash = "sha256:a6aeeacbdbcbc7fa2532192eb60339cc2cfae8c533e28acaaa85c0112e891e19"
+        url = "https://github.com/JuliaBinaryWrappers/XML2_jll.jl/releases/download/XML2-v2.15.5/XML2.v2.15.5.i686-linux-musl.tar.gz"
+
+    [[builds.licenses]]
+    filename = "Copyright"
+    license_type = "MIT"
+    license_text = """Except where otherwise noted in the source code (e.g. the files dict.c and\nlist.c, which are covered by a similar licence but with different Copyright\nnotices) all the files are:\n\n Copyright (C) 1998-2012 Daniel Veillard.  All Rights Reserved.\n Copyright (C) The Libxml2 Contributors.\n\nPermission is hereby granted, free of charge, to any person obtaining a copy\nof this software and associated documentation files (the \"Software\"), to deal\nin the Software without restriction, including without limitation the rights\nto use, copy, modify, merge, publish, distribute, sublicense, and/or sell\ncopies of the Software, and to permit persons to whom the Software is fur-\nnished to do so, subject to the following conditions:\n\nThe above copyright notice and this permission notice shall be included in\nall copies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR\nIMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FIT-\nNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT.  IN NO EVENT SHALL THE\nAUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER\nLIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,\nOUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN\nTHE SOFTWARE.\n"""
+
+    [[builds.products]]
+    path = "bin/xmlcatalog"
+    type = "executable"
+    name = "xmlcatalog"
+    [[builds.products]]
+    path = "bin/xmllint"
+    type = "executable"
+    name = "xmllint"
+    [[builds.products]]
+    flags = ["RTLD_DEEPBIND", "RTLD_LAZY"]
+    path = "lib/libxml2.so.16.1.4"
+    linkage = "dynamic"
+    type = "library"
+    name = "libxml2"
+    soname = "libxml2.so.16"
+    system_deps = ["c"]
+    deps = ["Zlib_jll.libz", "Libiconv_jll.libiconv"]
+
+    [builds.auxilliary_artifacts.extract_log]
+    treehash = "sha1:b03a2863a67b603339b529a13b55f1c542335870"
+
+        [[builds.auxilliary_artifacts.extract_log.download_sources]]
+        tarball_hash = "sha256:eaab90c0b57057a6aab4548bf51e1b4e16923c120317322d746aab658d1dafd7"
+        url = "https://github.com/JuliaBinaryWrappers/XML2_jll.jl/releases/download/XML2-v2.15.5/XML2-extract_log.v2.15.5.i686-linux-musl.tar.gz"
+
+    [builds.auxilliary_artifacts.build_log]
+    treehash = "sha1:eb111c2abc2d7267e4110af1015b5b5c35579ab5"
+
+        [[builds.auxilliary_artifacts.build_log.download_sources]]
+        tarball_hash = "sha256:e6f1d8a55e5bbf27802196d127115a1bd27d611d379be7f2ef98cfad862c2b4d"
+        url = "https://github.com/JuliaBinaryWrappers/XML2_jll.jl/releases/download/XML2-v2.15.5/XML2-build_log.v2.15.5.i686-linux-musl.tar.gz"
+
+    [[builds.sources]]
+    treehash = "sha1:8b55777ebf100548cb245a24b882a0a2900f7f3c"
+    url = "https://download.gnome.org/sources/libxml2/2.15/libxml2-2.15.4.tar.xz"
+
+    [builds.callback_defs]
+
+    [[builds.deps]]
+    name = "Zlib_jll"
+    compat = "1.2"
+    uuid = "83775a58-1f1d-513f-b197-d71354ab007a"
+    [[builds.deps]]
+    name = "Libiconv_jll"
+    compat = "1.18"
+    uuid = "94ce4f54-9a6c-5748-9c1c-f9c7231a4531"
+[[builds]]
+name = "XML2"
+platform = "aarch64-linux-musl"
+lazy = "false"
+src_version = "2.15.4"
+
+    [builds.artifact]
+    treehash = "sha1:d44517417a1bdfbdbecaa0cc7ea45cb645a497f1"
+
+        [[builds.artifact.download_sources]]
+        tarball_hash = "sha256:4947275761e73d73e562e40e5e8e41aa3b2827d4127f2c4889daec087a4315f3"
+        url = "https://github.com/JuliaBinaryWrappers/XML2_jll.jl/releases/download/XML2-v2.15.5/XML2.v2.15.5.aarch64-linux-musl.tar.gz"
+
+    [[builds.licenses]]
+    filename = "Copyright"
+    license_type = "MIT"
+    license_text = """Except where otherwise noted in the source code (e.g. the files dict.c and\nlist.c, which are covered by a similar licence but with different Copyright\nnotices) all the files are:\n\n Copyright (C) 1998-2012 Daniel Veillard.  All Rights Reserved.\n Copyright (C) The Libxml2 Contributors.\n\nPermission is hereby granted, free of charge, to any person obtaining a copy\nof this software and associated documentation files (the \"Software\"), to deal\nin the Software without restriction, including without limitation the rights\nto use, copy, modify, merge, publish, distribute, sublicense, and/or sell\ncopies of the Software, and to permit persons to whom the Software is fur-\nnished to do so, subject to the following conditions:\n\nThe above copyright notice and this permission notice shall be included in\nall copies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR\nIMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FIT-\nNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT.  IN NO EVENT SHALL THE\nAUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER\nLIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,\nOUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN\nTHE SOFTWARE.\n"""
+
+    [[builds.products]]
+    path = "bin/xmlcatalog"
+    type = "executable"
+    name = "xmlcatalog"
+    [[builds.products]]
+    path = "bin/xmllint"
+    type = "executable"
+    name = "xmllint"
+    [[builds.products]]
+    flags = ["RTLD_DEEPBIND", "RTLD_LAZY"]
+    path = "lib/libxml2.so.16.1.4"
+    linkage = "dynamic"
+    type = "library"
+    name = "libxml2"
+    soname = "libxml2.so.16"
+    system_deps = ["c"]
+    deps = ["Zlib_jll.libz", "Libiconv_jll.libiconv"]
+
+    [builds.auxilliary_artifacts.extract_log]
+    treehash = "sha1:fafdd98b923ea481febabb42e494e6ddb434420e"
+
+        [[builds.auxilliary_artifacts.extract_log.download_sources]]
+        tarball_hash = "sha256:8df65bf88500709c92ae1bbb44b935c27e5574a05737b63f1bc1af2c2e0e922a"
+        url = "https://github.com/JuliaBinaryWrappers/XML2_jll.jl/releases/download/XML2-v2.15.5/XML2-extract_log.v2.15.5.aarch64-linux-musl.tar.gz"
+
+    [builds.auxilliary_artifacts.build_log]
+    treehash = "sha1:131667d3326e8e1e2c7b7fcf48a8ffb7b066de05"
+
+        [[builds.auxilliary_artifacts.build_log.download_sources]]
+        tarball_hash = "sha256:234a871b64557d749bc6182df4234ceb2113d9668cf0d9dc60b480d0281fc7a1"
+        url = "https://github.com/JuliaBinaryWrappers/XML2_jll.jl/releases/download/XML2-v2.15.5/XML2-build_log.v2.15.5.aarch64-linux-musl.tar.gz"
+
+    [[builds.sources]]
+    treehash = "sha1:8b55777ebf100548cb245a24b882a0a2900f7f3c"
+    url = "https://download.gnome.org/sources/libxml2/2.15/libxml2-2.15.4.tar.xz"
+
+    [builds.callback_defs]
+
+    [[builds.deps]]
+    name = "Zlib_jll"
+    compat = "1.2"
+    uuid = "83775a58-1f1d-513f-b197-d71354ab007a"
+    [[builds.deps]]
+    name = "Libiconv_jll"
+    compat = "1.18"
+    uuid = "94ce4f54-9a6c-5748-9c1c-f9c7231a4531"
+[[builds]]
+name = "XML2"
+platform = "armv6l-linux-musleabihf"
+lazy = "false"
+src_version = "2.15.4"
+
+    [builds.artifact]
+    treehash = "sha1:fb376268db451799e8eb8d592cde8e50bab3af62"
+
+        [[builds.artifact.download_sources]]
+        tarball_hash = "sha256:6ee8d15692115542828a73d5c3c5ca18d29a6efbead005aa27e6960b1a10919f"
+        url = "https://github.com/JuliaBinaryWrappers/XML2_jll.jl/releases/download/XML2-v2.15.5/XML2.v2.15.5.armv6l-linux-musleabihf.tar.gz"
+
+    [[builds.licenses]]
+    filename = "Copyright"
+    license_type = "MIT"
+    license_text = """Except where otherwise noted in the source code (e.g. the files dict.c and\nlist.c, which are covered by a similar licence but with different Copyright\nnotices) all the files are:\n\n Copyright (C) 1998-2012 Daniel Veillard.  All Rights Reserved.\n Copyright (C) The Libxml2 Contributors.\n\nPermission is hereby granted, free of charge, to any person obtaining a copy\nof this software and associated documentation files (the \"Software\"), to deal\nin the Software without restriction, including without limitation the rights\nto use, copy, modify, merge, publish, distribute, sublicense, and/or sell\ncopies of the Software, and to permit persons to whom the Software is fur-\nnished to do so, subject to the following conditions:\n\nThe above copyright notice and this permission notice shall be included in\nall copies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR\nIMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FIT-\nNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT.  IN NO EVENT SHALL THE\nAUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER\nLIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,\nOUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN\nTHE SOFTWARE.\n"""
+
+    [[builds.products]]
+    path = "bin/xmlcatalog"
+    type = "executable"
+    name = "xmlcatalog"
+    [[builds.products]]
+    path = "bin/xmllint"
+    type = "executable"
+    name = "xmllint"
+    [[builds.products]]
+    flags = ["RTLD_DEEPBIND", "RTLD_LAZY"]
+    path = "lib/libxml2.so.16.1.4"
+    linkage = "dynamic"
+    type = "library"
+    name = "libxml2"
+    soname = "libxml2.so.16"
+    system_deps = ["c"]
+    deps = ["Zlib_jll.libz", "Libiconv_jll.libiconv"]
+
+    [builds.auxilliary_artifacts.extract_log]
+    treehash = "sha1:196c513e1094a463ad9aec7254c8eebfa9d3d21c"
+
+        [[builds.auxilliary_artifacts.extract_log.download_sources]]
+        tarball_hash = "sha256:7e6dbb89af92fd432341d8aaf57c1582b94fbc809bf4fe30782e1ca51274d45d"
+        url = "https://github.com/JuliaBinaryWrappers/XML2_jll.jl/releases/download/XML2-v2.15.5/XML2-extract_log.v2.15.5.armv6l-linux-musleabihf.tar.gz"
+
+    [builds.auxilliary_artifacts.build_log]
+    treehash = "sha1:d899157e444e1428e2d4eda59fdb165f36ee2a7a"
+
+        [[builds.auxilliary_artifacts.build_log.download_sources]]
+        tarball_hash = "sha256:59e80ea29f66d317f4710f4ed85b61f6b578c97659e5b18109b6914f55eff164"
+        url = "https://github.com/JuliaBinaryWrappers/XML2_jll.jl/releases/download/XML2-v2.15.5/XML2-build_log.v2.15.5.armv6l-linux-musleabihf.tar.gz"
+
+    [[builds.sources]]
+    treehash = "sha1:8b55777ebf100548cb245a24b882a0a2900f7f3c"
+    url = "https://download.gnome.org/sources/libxml2/2.15/libxml2-2.15.4.tar.xz"
+
+    [builds.callback_defs]
+
+    [[builds.deps]]
+    name = "Zlib_jll"
+    compat = "1.2"
+    uuid = "83775a58-1f1d-513f-b197-d71354ab007a"
+    [[builds.deps]]
+    name = "Libiconv_jll"
+    compat = "1.18"
+    uuid = "94ce4f54-9a6c-5748-9c1c-f9c7231a4531"
+[[builds]]
+name = "XML2"
+platform = "armv7l-linux-musleabihf"
+lazy = "false"
+src_version = "2.15.4"
+
+    [builds.artifact]
+    treehash = "sha1:fe15a4157ac39c3d01327dce026d552c3ecc07bc"
+
+        [[builds.artifact.download_sources]]
+        tarball_hash = "sha256:a9a8cd4f515a7d83b5ab728fdd648cd2b028030c1b932610f769cc7330f1a537"
+        url = "https://github.com/JuliaBinaryWrappers/XML2_jll.jl/releases/download/XML2-v2.15.5/XML2.v2.15.5.armv7l-linux-musleabihf.tar.gz"
+
+    [[builds.licenses]]
+    filename = "Copyright"
+    license_type = "MIT"
+    license_text = """Except where otherwise noted in the source code (e.g. the files dict.c and\nlist.c, which are covered by a similar licence but with different Copyright\nnotices) all the files are:\n\n Copyright (C) 1998-2012 Daniel Veillard.  All Rights Reserved.\n Copyright (C) The Libxml2 Contributors.\n\nPermission is hereby granted, free of charge, to any person obtaining a copy\nof this software and associated documentation files (the \"Software\"), to deal\nin the Software without restriction, including without limitation the rights\nto use, copy, modify, merge, publish, distribute, sublicense, and/or sell\ncopies of the Software, and to permit persons to whom the Software is fur-\nnished to do so, subject to the following conditions:\n\nThe above copyright notice and this permission notice shall be included in\nall copies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR\nIMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FIT-\nNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT.  IN NO EVENT SHALL THE\nAUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER\nLIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,\nOUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN\nTHE SOFTWARE.\n"""
+
+    [[builds.products]]
+    path = "bin/xmlcatalog"
+    type = "executable"
+    name = "xmlcatalog"
+    [[builds.products]]
+    path = "bin/xmllint"
+    type = "executable"
+    name = "xmllint"
+    [[builds.products]]
+    flags = ["RTLD_DEEPBIND", "RTLD_LAZY"]
+    path = "lib/libxml2.so.16.1.4"
+    linkage = "dynamic"
+    type = "library"
+    name = "libxml2"
+    soname = "libxml2.so.16"
+    system_deps = ["c"]
+    deps = ["Zlib_jll.libz", "Libiconv_jll.libiconv"]
+
+    [builds.auxilliary_artifacts.extract_log]
+    treehash = "sha1:38dd2ab4fccb11dfa5f9014d1df53196688f122a"
+
+        [[builds.auxilliary_artifacts.extract_log.download_sources]]
+        tarball_hash = "sha256:b63cd36dfd23f27a668ddd1b3748f6be0e5a4178bbdf5120ee472ad57af7187b"
+        url = "https://github.com/JuliaBinaryWrappers/XML2_jll.jl/releases/download/XML2-v2.15.5/XML2-extract_log.v2.15.5.armv7l-linux-musleabihf.tar.gz"
+
+    [builds.auxilliary_artifacts.build_log]
+    treehash = "sha1:7404eaa4a2ab860d964fab965b0ed7760078675e"
+
+        [[builds.auxilliary_artifacts.build_log.download_sources]]
+        tarball_hash = "sha256:8a7a16918f10abcb4d0420c8ae2580a421feb8698f68f7d176943c83a0ebc99f"
+        url = "https://github.com/JuliaBinaryWrappers/XML2_jll.jl/releases/download/XML2-v2.15.5/XML2-build_log.v2.15.5.armv7l-linux-musleabihf.tar.gz"
+
+    [[builds.sources]]
+    treehash = "sha1:8b55777ebf100548cb245a24b882a0a2900f7f3c"
+    url = "https://download.gnome.org/sources/libxml2/2.15/libxml2-2.15.4.tar.xz"
+
+    [builds.callback_defs]
+
+    [[builds.deps]]
+    name = "Zlib_jll"
+    compat = "1.2"
+    uuid = "83775a58-1f1d-513f-b197-d71354ab007a"
+    [[builds.deps]]
+    name = "Libiconv_jll"
+    compat = "1.18"
+    uuid = "94ce4f54-9a6c-5748-9c1c-f9c7231a4531"
+[[builds]]
+name = "XML2"
+platform = "x86_64-w64-mingw32"
+lazy = "false"
+src_version = "2.15.4"
+
+    [builds.artifact]
+    treehash = "sha1:35f68fae8719db1040c056b05c94f08b1b0514c4"
+
+        [[builds.artifact.download_sources]]
+        tarball_hash = "sha256:0fc5c739d50beb9471be29930e2dc33ce04f09fa589f67057c28495518cd849e"
+        url = "https://github.com/JuliaBinaryWrappers/XML2_jll.jl/releases/download/XML2-v2.15.5/XML2.v2.15.5.x86_64-w64-mingw32.tar.gz"
+
+    [[builds.licenses]]
+    filename = "Copyright"
+    license_type = "MIT"
+    license_text = """Except where otherwise noted in the source code (e.g. the files dict.c and\nlist.c, which are covered by a similar licence but with different Copyright\nnotices) all the files are:\n\n Copyright (C) 1998-2012 Daniel Veillard.  All Rights Reserved.\n Copyright (C) The Libxml2 Contributors.\n\nPermission is hereby granted, free of charge, to any person obtaining a copy\nof this software and associated documentation files (the \"Software\"), to deal\nin the Software without restriction, including without limitation the rights\nto use, copy, modify, merge, publish, distribute, sublicense, and/or sell\ncopies of the Software, and to permit persons to whom the Software is fur-\nnished to do so, subject to the following conditions:\n\nThe above copyright notice and this permission notice shall be included in\nall copies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR\nIMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FIT-\nNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT.  IN NO EVENT SHALL THE\nAUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER\nLIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,\nOUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN\nTHE SOFTWARE.\n"""
+
+    [[builds.products]]
+    path = "bin/xmlcatalog.exe"
+    type = "executable"
+    name = "xmlcatalog"
+    [[builds.products]]
+    path = "bin/xmllint.exe"
+    type = "executable"
+    name = "xmllint"
+    [[builds.products]]
+    flags = ["RTLD_DEEPBIND", "RTLD_LAZY"]
+    path = "bin/libxml2-16.dll"
+    linkage = "dynamic"
+    type = "library"
+    name = "libxml2"
+    soname = "libxml2-16.dll"
+    system_deps = ["bcrypt", "kernel32", "msvcrt"]
+    deps = ["Libiconv_jll.libiconv", "Zlib_jll.libz"]
+
+    [builds.auxilliary_artifacts.extract_log]
+    treehash = "sha1:aaece3e3fdc99123bd96b4ccd4e1860d0273ceb2"
+
+        [[builds.auxilliary_artifacts.extract_log.download_sources]]
+        tarball_hash = "sha256:281060ba28b53b90b87ee8082bad7d319fbdc8f8223b807a5be57d2acc53ec98"
+        url = "https://github.com/JuliaBinaryWrappers/XML2_jll.jl/releases/download/XML2-v2.15.5/XML2-extract_log.v2.15.5.x86_64-w64-mingw32.tar.gz"
+
+    [builds.auxilliary_artifacts.build_log]
+    treehash = "sha1:93cf60e9eb33b78a3c328092c68fa6faa86fad1e"
+
+        [[builds.auxilliary_artifacts.build_log.download_sources]]
+        tarball_hash = "sha256:d5974a8170d4924afad774aff7fdfd9722bc8a50edb373e3f9d0e58a6ea57e8a"
+        url = "https://github.com/JuliaBinaryWrappers/XML2_jll.jl/releases/download/XML2-v2.15.5/XML2-build_log.v2.15.5.x86_64-w64-mingw32.tar.gz"
+
+    [[builds.sources]]
+    treehash = "sha1:8b55777ebf100548cb245a24b882a0a2900f7f3c"
+    url = "https://download.gnome.org/sources/libxml2/2.15/libxml2-2.15.4.tar.xz"
+
+    [builds.callback_defs]
+
+    [[builds.deps]]
+    name = "Zlib_jll"
+    compat = "1.2"
+    uuid = "83775a58-1f1d-513f-b197-d71354ab007a"
+    [[builds.deps]]
+    name = "Libiconv_jll"
+    compat = "1.18"
+    uuid = "94ce4f54-9a6c-5748-9c1c-f9c7231a4531"
+[[builds]]
+name = "XML2"
+platform = "i686-w64-mingw32"
+lazy = "false"
+src_version = "2.15.4"
+
+    [builds.artifact]
+    treehash = "sha1:6ccc78e2e0202d84e5b085a7878175b8917953c1"
+
+        [[builds.artifact.download_sources]]
+        tarball_hash = "sha256:729f7a09d4df016263e37db3dda1dbafda40b57a83c0fb02631d3ef659b609b1"
+        url = "https://github.com/JuliaBinaryWrappers/XML2_jll.jl/releases/download/XML2-v2.15.5/XML2.v2.15.5.i686-w64-mingw32.tar.gz"
+
+    [[builds.licenses]]
+    filename = "Copyright"
+    license_type = "MIT"
+    license_text = """Except where otherwise noted in the source code (e.g. the files dict.c and\nlist.c, which are covered by a similar licence but with different Copyright\nnotices) all the files are:\n\n Copyright (C) 1998-2012 Daniel Veillard.  All Rights Reserved.\n Copyright (C) The Libxml2 Contributors.\n\nPermission is hereby granted, free of charge, to any person obtaining a copy\nof this software and associated documentation files (the \"Software\"), to deal\nin the Software without restriction, including without limitation the rights\nto use, copy, modify, merge, publish, distribute, sublicense, and/or sell\ncopies of the Software, and to permit persons to whom the Software is fur-\nnished to do so, subject to the following conditions:\n\nThe above copyright notice and this permission notice shall be included in\nall copies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR\nIMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FIT-\nNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT.  IN NO EVENT SHALL THE\nAUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER\nLIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,\nOUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN\nTHE SOFTWARE.\n"""
+
+    [[builds.products]]
+    path = "bin/xmlcatalog.exe"
+    type = "executable"
+    name = "xmlcatalog"
+    [[builds.products]]
+    path = "bin/xmllint.exe"
+    type = "executable"
+    name = "xmllint"
+    [[builds.products]]
+    flags = ["RTLD_DEEPBIND", "RTLD_LAZY"]
+    path = "bin/libxml2-16.dll"
+    linkage = "dynamic"
+    type = "library"
+    name = "libxml2"
+    soname = "libxml2-16.dll"
+    system_deps = ["bcrypt", "kernel32", "msvcrt"]
+    deps = ["Libiconv_jll.libiconv", "Zlib_jll.libz"]
+
+    [builds.auxilliary_artifacts.extract_log]
+    treehash = "sha1:d3ee4b3b2a4731bf23054e0a69d6e6ff3766febf"
+
+        [[builds.auxilliary_artifacts.extract_log.download_sources]]
+        tarball_hash = "sha256:ccd12d831e8bc2f7f7205ef94aa3eb3eb0499dab16d35a0f196dc247e33cbb40"
+        url = "https://github.com/JuliaBinaryWrappers/XML2_jll.jl/releases/download/XML2-v2.15.5/XML2-extract_log.v2.15.5.i686-w64-mingw32.tar.gz"
+
+    [builds.auxilliary_artifacts.build_log]
+    treehash = "sha1:0c2aaed48fdd40160998dec428ecd59ec096fdf0"
+
+        [[builds.auxilliary_artifacts.build_log.download_sources]]
+        tarball_hash = "sha256:5b5739d1ecb2f58f85ab0e42e77034805808036dc6172fd04fa75d57a240a142"
+        url = "https://github.com/JuliaBinaryWrappers/XML2_jll.jl/releases/download/XML2-v2.15.5/XML2-build_log.v2.15.5.i686-w64-mingw32.tar.gz"
+
+    [[builds.sources]]
+    treehash = "sha1:8b55777ebf100548cb245a24b882a0a2900f7f3c"
+    url = "https://download.gnome.org/sources/libxml2/2.15/libxml2-2.15.4.tar.xz"
+
+    [builds.callback_defs]
+
+    [[builds.deps]]
+    name = "Zlib_jll"
+    compat = "1.2"
+    uuid = "83775a58-1f1d-513f-b197-d71354ab007a"
+    [[builds.deps]]
+    name = "Libiconv_jll"
+    compat = "1.18"
+    uuid = "94ce4f54-9a6c-5748-9c1c-f9c7231a4531"
+[[builds]]
+name = "XML2"
+platform = "x86_64-apple-darwin20"
+lazy = "false"
+src_version = "2.15.4"
+
+    [builds.artifact]
+    treehash = "sha1:a1eafe1bf7d1f1c7eb135e864e1406cb08274043"
+
+        [[builds.artifact.download_sources]]
+        tarball_hash = "sha256:893002cc57fd34147ae41561b60c9976d725d3f668d456fec8197a4d73b688db"
+        url = "https://github.com/JuliaBinaryWrappers/XML2_jll.jl/releases/download/XML2-v2.15.5/XML2.v2.15.5.x86_64-apple-darwin20.tar.gz"
+
+    [[builds.licenses]]
+    filename = "Copyright"
+    license_type = "MIT"
+    license_text = """Except where otherwise noted in the source code (e.g. the files dict.c and\nlist.c, which are covered by a similar licence but with different Copyright\nnotices) all the files are:\n\n Copyright (C) 1998-2012 Daniel Veillard.  All Rights Reserved.\n Copyright (C) The Libxml2 Contributors.\n\nPermission is hereby granted, free of charge, to any person obtaining a copy\nof this software and associated documentation files (the \"Software\"), to deal\nin the Software without restriction, including without limitation the rights\nto use, copy, modify, merge, publish, distribute, sublicense, and/or sell\ncopies of the Software, and to permit persons to whom the Software is fur-\nnished to do so, subject to the following conditions:\n\nThe above copyright notice and this permission notice shall be included in\nall copies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR\nIMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FIT-\nNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT.  IN NO EVENT SHALL THE\nAUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER\nLIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,\nOUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN\nTHE SOFTWARE.\n"""
+
+    [[builds.products]]
+    path = "bin/xmlcatalog"
+    type = "executable"
+    name = "xmlcatalog"
+    [[builds.products]]
+    path = "bin/xmllint"
+    type = "executable"
+    name = "xmllint"
+    [[builds.products]]
+    flags = ["RTLD_DEEPBIND", "RTLD_LAZY"]
+    path = "lib/libxml2.16.dylib"
+    linkage = "dynamic"
+    type = "library"
+    name = "libxml2"
+    soname = "@rpath/libxml2.16.dylib"
+    system_deps = ["System"]
+    deps = ["Zlib_jll.libz", "Libiconv_jll.libiconv"]
+
+    [builds.auxilliary_artifacts.extract_log]
+    treehash = "sha1:a74abf1dcdb88bbcebb4b211b0ca440ce667c847"
+
+        [[builds.auxilliary_artifacts.extract_log.download_sources]]
+        tarball_hash = "sha256:fea4a2aba59c02a4c908d888e5851f922252722d7b760107aff1d72fb4f1919e"
+        url = "https://github.com/JuliaBinaryWrappers/XML2_jll.jl/releases/download/XML2-v2.15.5/XML2-extract_log.v2.15.5.x86_64-apple-darwin20.tar.gz"
+
+    [builds.auxilliary_artifacts.build_log]
+    treehash = "sha1:8bfc6f266976afd65a046ad1ccd7eeb95eb1172c"
+
+        [[builds.auxilliary_artifacts.build_log.download_sources]]
+        tarball_hash = "sha256:c349d7b2ff0b3572372bf2bcc94c7e668179469999574b59b0c7a876f9f8302d"
+        url = "https://github.com/JuliaBinaryWrappers/XML2_jll.jl/releases/download/XML2-v2.15.5/XML2-build_log.v2.15.5.x86_64-apple-darwin20.tar.gz"
+
+    [[builds.sources]]
+    treehash = "sha1:8b55777ebf100548cb245a24b882a0a2900f7f3c"
+    url = "https://download.gnome.org/sources/libxml2/2.15/libxml2-2.15.4.tar.xz"
+
+    [builds.callback_defs]
+
+    [[builds.deps]]
+    name = "Zlib_jll"
+    compat = "1.2"
+    uuid = "83775a58-1f1d-513f-b197-d71354ab007a"
+    [[builds.deps]]
+    name = "Libiconv_jll"
+    compat = "1.18"
+    uuid = "94ce4f54-9a6c-5748-9c1c-f9c7231a4531"
+[[builds]]
+name = "XML2"
+platform = "aarch64-apple-darwin20"
+lazy = "false"
+src_version = "2.15.4"
+
+    [builds.artifact]
+    treehash = "sha1:9d4868495d1b921d3252d86d1bd53fb592ad2f00"
+
+        [[builds.artifact.download_sources]]
+        tarball_hash = "sha256:66e8bf68bb1ee7841a681535c5454e3531b16ace72ebcb2a96b17557e92f0252"
+        url = "https://github.com/JuliaBinaryWrappers/XML2_jll.jl/releases/download/XML2-v2.15.5/XML2.v2.15.5.aarch64-apple-darwin20.tar.gz"
+
+    [[builds.licenses]]
+    filename = "Copyright"
+    license_type = "MIT"
+    license_text = """Except where otherwise noted in the source code (e.g. the files dict.c and\nlist.c, which are covered by a similar licence but with different Copyright\nnotices) all the files are:\n\n Copyright (C) 1998-2012 Daniel Veillard.  All Rights Reserved.\n Copyright (C) The Libxml2 Contributors.\n\nPermission is hereby granted, free of charge, to any person obtaining a copy\nof this software and associated documentation files (the \"Software\"), to deal\nin the Software without restriction, including without limitation the rights\nto use, copy, modify, merge, publish, distribute, sublicense, and/or sell\ncopies of the Software, and to permit persons to whom the Software is fur-\nnished to do so, subject to the following conditions:\n\nThe above copyright notice and this permission notice shall be included in\nall copies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR\nIMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FIT-\nNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT.  IN NO EVENT SHALL THE\nAUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER\nLIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,\nOUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN\nTHE SOFTWARE.\n"""
+
+    [[builds.products]]
+    path = "bin/xmlcatalog"
+    type = "executable"
+    name = "xmlcatalog"
+    [[builds.products]]
+    path = "bin/xmllint"
+    type = "executable"
+    name = "xmllint"
+    [[builds.products]]
+    flags = ["RTLD_DEEPBIND", "RTLD_LAZY"]
+    path = "lib/libxml2.16.dylib"
+    linkage = "dynamic"
+    type = "library"
+    name = "libxml2"
+    soname = "@rpath/libxml2.16.dylib"
+    system_deps = ["System"]
+    deps = ["Zlib_jll.libz", "Libiconv_jll.libiconv"]
+
+    [builds.auxilliary_artifacts.extract_log]
+    treehash = "sha1:c1481be5601a6166e6a9c6239df4c8d9cd4ce86a"
+
+        [[builds.auxilliary_artifacts.extract_log.download_sources]]
+        tarball_hash = "sha256:84f16454329981322313eb941361e63ccb7767e9b3bdc3baf328de1c4cb41f9e"
+        url = "https://github.com/JuliaBinaryWrappers/XML2_jll.jl/releases/download/XML2-v2.15.5/XML2-extract_log.v2.15.5.aarch64-apple-darwin20.tar.gz"
+
+    [builds.auxilliary_artifacts.build_log]
+    treehash = "sha1:43a07b68a1f7dde9687e57cc78ba5b707a3ce86f"
+
+        [[builds.auxilliary_artifacts.build_log.download_sources]]
+        tarball_hash = "sha256:595f8a1013137938bcbbe55768ba93e5c3cb15cbfd03b5d1c70526cfb6db35a0"
+        url = "https://github.com/JuliaBinaryWrappers/XML2_jll.jl/releases/download/XML2-v2.15.5/XML2-build_log.v2.15.5.aarch64-apple-darwin20.tar.gz"
+
+    [[builds.sources]]
+    treehash = "sha1:8b55777ebf100548cb245a24b882a0a2900f7f3c"
+    url = "https://download.gnome.org/sources/libxml2/2.15/libxml2-2.15.4.tar.xz"
+
+    [builds.callback_defs]
+
+    [[builds.deps]]
+    name = "Zlib_jll"
+    compat = "1.2"
+    uuid = "83775a58-1f1d-513f-b197-d71354ab007a"
+    [[builds.deps]]
+    name = "Libiconv_jll"
+    compat = "1.18"
+    uuid = "94ce4f54-9a6c-5748-9c1c-f9c7231a4531"
+[[builds]]
+name = "XML2"
+platform = "x86_64-unknown-freebsd14.1"
+lazy = "false"
+src_version = "2.15.4"
+
+    [builds.artifact]
+    treehash = "sha1:1053590614f515bfa9c6311c4a01c18c7115bdc5"
+
+        [[builds.artifact.download_sources]]
+        tarball_hash = "sha256:f9ad22a03ebf01931a1dfeb71148f9dc2dc9b4f65b95d54cd7fdb5a782ee316d"
+        url = "https://github.com/JuliaBinaryWrappers/XML2_jll.jl/releases/download/XML2-v2.15.5/XML2.v2.15.5.x86_64-unknown-freebsd14.1.tar.gz"
+
+    [[builds.licenses]]
+    filename = "Copyright"
+    license_type = "MIT"
+    license_text = """Except where otherwise noted in the source code (e.g. the files dict.c and\nlist.c, which are covered by a similar licence but with different Copyright\nnotices) all the files are:\n\n Copyright (C) 1998-2012 Daniel Veillard.  All Rights Reserved.\n Copyright (C) The Libxml2 Contributors.\n\nPermission is hereby granted, free of charge, to any person obtaining a copy\nof this software and associated documentation files (the \"Software\"), to deal\nin the Software without restriction, including without limitation the rights\nto use, copy, modify, merge, publish, distribute, sublicense, and/or sell\ncopies of the Software, and to permit persons to whom the Software is fur-\nnished to do so, subject to the following conditions:\n\nThe above copyright notice and this permission notice shall be included in\nall copies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR\nIMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FIT-\nNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT.  IN NO EVENT SHALL THE\nAUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER\nLIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,\nOUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN\nTHE SOFTWARE.\n"""
+
+    [[builds.products]]
+    path = "bin/xmlcatalog"
+    type = "executable"
+    name = "xmlcatalog"
+    [[builds.products]]
+    path = "bin/xmllint"
+    type = "executable"
+    name = "xmllint"
+    [[builds.products]]
+    flags = ["RTLD_DEEPBIND", "RTLD_LAZY"]
+    path = "lib/libxml2.so.16.1.4"
+    linkage = "dynamic"
+    type = "library"
+    name = "libxml2"
+    soname = "libxml2.so.16"
+    system_deps = ["c", "m", "thr"]
+    deps = ["Zlib_jll.libz", "Libiconv_jll.libiconv"]
+
+    [builds.auxilliary_artifacts.extract_log]
+    treehash = "sha1:96975cdf430c0159c3371b47b284ddd30b6d98f4"
+
+        [[builds.auxilliary_artifacts.extract_log.download_sources]]
+        tarball_hash = "sha256:eb0a002c3f372964cbe8eb53f478adba4def1d254305e839ff7ddbe362853649"
+        url = "https://github.com/JuliaBinaryWrappers/XML2_jll.jl/releases/download/XML2-v2.15.5/XML2-extract_log.v2.15.5.x86_64-unknown-freebsd14.1.tar.gz"
+
+    [builds.auxilliary_artifacts.build_log]
+    treehash = "sha1:35695840f521b66cd62e72fb3fc0f11dcc55adf5"
+
+        [[builds.auxilliary_artifacts.build_log.download_sources]]
+        tarball_hash = "sha256:ce55d98cb40b527515d0501e18e435b98c2f206f53de4337591073167da64dc1"
+        url = "https://github.com/JuliaBinaryWrappers/XML2_jll.jl/releases/download/XML2-v2.15.5/XML2-build_log.v2.15.5.x86_64-unknown-freebsd14.1.tar.gz"
+
+    [[builds.sources]]
+    treehash = "sha1:8b55777ebf100548cb245a24b882a0a2900f7f3c"
+    url = "https://download.gnome.org/sources/libxml2/2.15/libxml2-2.15.4.tar.xz"
+
+    [builds.callback_defs]
+
+    [[builds.deps]]
+    name = "Zlib_jll"
+    compat = "1.2"
+    uuid = "83775a58-1f1d-513f-b197-d71354ab007a"
+    [[builds.deps]]
+    name = "Libiconv_jll"
+    compat = "1.18"
+    uuid = "94ce4f54-9a6c-5748-9c1c-f9c7231a4531"
+[[builds]]
+name = "XML2"
+platform = "aarch64-unknown-freebsd14.1"
+lazy = "false"
+src_version = "2.15.4"
+
+    [builds.artifact]
+    treehash = "sha1:cf56dc755d8e1aec249afb277c8f1f55fa108e52"
+
+        [[builds.artifact.download_sources]]
+        tarball_hash = "sha256:bbf0f9a3bb9f34f9a2636d9e56b8467618e61a9b96496d6bd52cf8f38a59d1ba"
+        url = "https://github.com/JuliaBinaryWrappers/XML2_jll.jl/releases/download/XML2-v2.15.5/XML2.v2.15.5.aarch64-unknown-freebsd14.1.tar.gz"
+
+    [[builds.licenses]]
+    filename = "Copyright"
+    license_type = "MIT"
+    license_text = """Except where otherwise noted in the source code (e.g. the files dict.c and\nlist.c, which are covered by a similar licence but with different Copyright\nnotices) all the files are:\n\n Copyright (C) 1998-2012 Daniel Veillard.  All Rights Reserved.\n Copyright (C) The Libxml2 Contributors.\n\nPermission is hereby granted, free of charge, to any person obtaining a copy\nof this software and associated documentation files (the \"Software\"), to deal\nin the Software without restriction, including without limitation the rights\nto use, copy, modify, merge, publish, distribute, sublicense, and/or sell\ncopies of the Software, and to permit persons to whom the Software is fur-\nnished to do so, subject to the following conditions:\n\nThe above copyright notice and this permission notice shall be included in\nall copies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR\nIMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FIT-\nNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT.  IN NO EVENT SHALL THE\nAUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER\nLIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,\nOUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN\nTHE SOFTWARE.\n"""
+
+    [[builds.products]]
+    path = "bin/xmlcatalog"
+    type = "executable"
+    name = "xmlcatalog"
+    [[builds.products]]
+    path = "bin/xmllint"
+    type = "executable"
+    name = "xmllint"
+    [[builds.products]]
+    flags = ["RTLD_DEEPBIND", "RTLD_LAZY"]
+    path = "lib/libxml2.so.16.1.4"
+    linkage = "dynamic"
+    type = "library"
+    name = "libxml2"
+    soname = "libxml2.so.16"
+    system_deps = ["c", "m", "thr"]
+    deps = ["Zlib_jll.libz", "Libiconv_jll.libiconv"]
+
+    [builds.auxilliary_artifacts.extract_log]
+    treehash = "sha1:275842a95b1a2eb72b033cf64f593cb45a59d1a1"
+
+        [[builds.auxilliary_artifacts.extract_log.download_sources]]
+        tarball_hash = "sha256:ee91526122833c151d5ad45b0ab204a850e88873bc685014596a881660e68ae1"
+        url = "https://github.com/JuliaBinaryWrappers/XML2_jll.jl/releases/download/XML2-v2.15.5/XML2-extract_log.v2.15.5.aarch64-unknown-freebsd14.1.tar.gz"
+
+    [builds.auxilliary_artifacts.build_log]
+    treehash = "sha1:6b87e1d336e4d68ee71529c8bbc509382edea57e"
+
+        [[builds.auxilliary_artifacts.build_log.download_sources]]
+        tarball_hash = "sha256:26813476adec02c832f2e65cc6e5c2a0fe083b8c86c636b34e251709af1d0db8"
+        url = "https://github.com/JuliaBinaryWrappers/XML2_jll.jl/releases/download/XML2-v2.15.5/XML2-build_log.v2.15.5.aarch64-unknown-freebsd14.1.tar.gz"
+
+    [[builds.sources]]
+    treehash = "sha1:8b55777ebf100548cb245a24b882a0a2900f7f3c"
+    url = "https://download.gnome.org/sources/libxml2/2.15/libxml2-2.15.4.tar.xz"
+
+    [builds.callback_defs]
+
+    [[builds.deps]]
+    name = "Zlib_jll"
+    compat = "1.2"
+    uuid = "83775a58-1f1d-513f-b197-d71354ab007a"
+    [[builds.deps]]
+    name = "Libiconv_jll"
+    compat = "1.18"
+    uuid = "94ce4f54-9a6c-5748-9c1c-f9c7231a4531"
